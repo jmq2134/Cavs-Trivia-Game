@@ -4,12 +4,12 @@
 <head>
     <title>Trivia Game</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <!--  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" -->
+     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--     <link rel="stylesheet" type="text/css" href="./assets/css/bootstraptheme.css"> -->
+<!--     <link rel="stylesheet" type="text/css" href="./assets/css/bootstraptheme.css"> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <nav class="navbar navbar-default">
@@ -23,9 +23,9 @@
 <body>
     <div id="main-container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8 ">
                 <div class="row">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default big-panel">
                         <div class="panel-body row" id="trivia-panel-q">
                             Panel content
                         </div>
@@ -51,6 +51,7 @@
                                 <p style="text-align: center;"></p>
                             </label>
                         </div>
+                        <div class="panel-body row" id="imgHolder"></div>
                         <div class="btn-group" role="group" aria-label="...">
                             <button type="button" class="btn btn-default" id="start">Start</button>
                             <button type="button" class="btn btn-default" id="submit">Submit</button>
@@ -60,9 +61,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
+            <div class="col-md-4">
+                <div class="panel panel-default small-panel" id="counter">
+                    <div class="panel-heading" id="panel-heading-1">
                         <h3 class="panel-title">Score Board</h3>
                     </div>
                     <div class="panel-body counter">
@@ -71,9 +72,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" id = "timer">
-                    <div class="panel-heading">
+            <div class="col-md-4">
+                <div class="panel panel-default small-panel" id="timer">
+                    <div class="panel-heading" id="panel-heading-2">
                         <h3 class="panel-title">Timer</h3>
                     </div>
                     <div class="panel-body timer" id="show-number">
