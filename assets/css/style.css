@@ -1,0 +1,46 @@
+body {
+    background: white;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 30px, 20px, 20px, 30px;
+}
+
+.header {
+    padding: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid black;
+
+}
+
+.navbar {
+	background: black;
+    border: 2px solid black;
+}
+
+.brand {
+    font-size: 30px;
+}
+
+#main-container {
+    margin: 20px 30px 20px 30px;
+}
+.panel-heading {
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.timer {
+	font-size: 40px;
+
+}
+
+
+
+.panel-title {
+    font-size: 22px;
+}

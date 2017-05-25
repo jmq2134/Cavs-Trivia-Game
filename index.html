@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Game</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!--  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!--     <link rel="stylesheet" type="text/css" href="./assets/css/bootstraptheme.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header header">
+            <a class="navbar-brand brand" href="#">CLEVELAND CAVALIERS TRIVIA</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div id="main-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-body row" id="trivia-panel-q">
+                            Panel content
+                        </div>
+                        <div class="panel-body" id="trivia-panel-a">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="0" value="option1">
+                                <br>
+                                <p style="text-align: center;"></p>
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="1" value="option2">
+                                <br>
+                                <p style="text-align: center;"></p>
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="2" value="option3">
+                                <br>
+                                <p style="text-align: center;"></p>
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="3" value="option4">
+                                <br>
+                                <p style="text-align: center;"></p>
+                            </label>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" id="start">Start</button>
+                            <button type="button" class="btn btn-default" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Score Board</h3>
+                    </div>
+                    <div class="panel-body counter">
+                        <p id="correct">CORRECT: </p>
+                        <p id="incorrect">INCORRECT: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default" id = "timer">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Timer</h3>
+                    </div>
+                    <div class="panel-body timer" id="show-number">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+        <script src="./assets/javascript/app.js "></script>
+</body>
+
+</html>
